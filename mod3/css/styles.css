@@ -1,0 +1,72 @@
+*{box-sizing: border-box;}
+
+body{
+	font-size:16px;
+	color: black;
+	font-family: "Oxygen", sans-serif;
+
+}
+.content {
+	background-color: darkgrey;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+/**Header**/
+.navbar, .navbar-expand-lg{
+	padding: 2px 0 0 0;
+}
+.navbar, .bg {
+    background-color: darkgrey;
+}
+.navbar-brand{
+	font-size: 1.5em;
+	padding: 2px 2px 2px 5px;
+}
+
+
+.navbar-header button.navbar-toggler, .navbar-header .icon-bar{
+	border: 1px solid black;	
+}
+
+.nav-item{
+	text-align: center;
+	border: 0.5px solid black;
+	background-color: white;
+
+}
+
+h1{
+	font-weight: bold;
+	color: black;
+}
+
+
+/**For destop**/
+@media (min-width: 992px){
+	.col-md-12{
+        float: left;
+        width: 95%;
+        margin: 1%;
+    	}
+    }
+
+/**For tablet**/
+@media (min-width: 768px){
+	.col-sm-12 {
+	float: left ;
+	width: 95%;
+	margin: 1%;
+	}
+}
+
+/**For mobile**/
+@media (min-width: 576px){
+	.col-xs-12{
+	float: left;
+	width: 95%;
+	margin: 1%;
+	}
+}
